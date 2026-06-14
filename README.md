@@ -1,17 +1,10 @@
-```rust
-pub struct Craftznake {
-    pub username: &'static str,
-    pub interested_in: &'white str,
-    pub website: &'static str,
-}
+```bash
+cat << 'EOF' > craftznake
+[identity]
+username:      hnimtadd
+interested_in: building tools, optimizing things, and learning systems
+website:       https://info.craftznake.com
+EOF
 
-impl Craftznake {
-    pub fn init() -> Self {
-        Self {
-            username: "craftznake",
-            interested_in: "building tools, optimizing things, and learning systems",
-            website: "https://craftznake.space",
-        }
-    }
-}
+echo -e "Hi, I'm \n$(cat craftznake)"
 ```
