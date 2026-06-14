@@ -8,7 +8,7 @@ pub struct Craftznake {
 impl Craftznake {
     pub fn init() -> Self {
         Self {
-            username: "hnimtadd",
+            username: "craftznake",
             interested_in: "building tools, optimizing things, and learning systems",
             website: "https://craftznake.space",
         }
